@@ -4,6 +4,7 @@ import random
 print(f"Welcome to the Random Number Guessing Game! Here you will have a chance to guess a random number. \nRules are simple, you choose your difficulty and keep guessing till you guess the right number! \nThere's no limit to how many guesses you have, so you could be here for a while.")
 
 while True: #so that they can continue playing n number of times
+    
     #they pick thier own difficulty here
     l_lim=int(input("Choose your lower range: ")) 
     u_lim=int(input("Choose your upper range: "))
